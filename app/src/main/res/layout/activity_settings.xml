@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".controller.person.settings.SettingsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mtoolbar_setting"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/MyToolbar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextAppearance="@style/MyToolbar.TitleText"></android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="myemail@hcmut.edu.vn"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/policy_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_height_item"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/setting_item_spacing"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/setting_item_list_view"
+        android:drawableRight="@drawable/arrow_right_24dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Chính sách về Quyền riêng tư"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/term_of_use"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_height_item"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/setting_item_spacing"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/setting_item_list_view"
+        android:drawableRight="@drawable/arrow_right_24dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Điều khoản sử dụng"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/team_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_height_item"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/setting_item_spacing"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/setting_item_list_view"
+        android:drawableRight="@drawable/arrow_right_24dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Thông tin ứng dụng"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/support_report_bug"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_height_item"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/setting_item_spacing"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/setting_item_list_view"
+        android:drawableRight="@drawable/arrow_right_24dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Gửi email thông báo lỗi"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_height_item"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/setting_item_spacing"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/setting_item_list_view"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Đăng xuất"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="colorPrimary">#63CDEA</color>
+    <color name="colorPrimaryDark">#63CDEA</color>
+    <color name="colorAccent">#63CDEA</color>
+    <color name="F1FCFF">#B565F7</color>
+    <color name="lightGray">#EFF2F3</color>
+    <color name="appColor">#63CDEA</color>
+    <color name="sweetPink">#FF99A0</color>
+    <color name="redOrangeColor">#FF4A57</color>
+    <color name="optionLessonColor">#D1DAE4</color>
+    <color name="morningLessonColor">#F6C070</color>
+    <color name="afternoonLessonColor">#E19B82</color>
+    <color name="nightLessonColor">#D6DF80</color>
+    <color name="evenLessonColor">#E9EDF1</color>
+    <color name="oddLessonColor">#D1DAE4</color>
+    <color name="optionLessonIdColor">#5289AF</color>
+</resources>

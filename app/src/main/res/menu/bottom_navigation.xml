@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_schedule"
+        android:icon="@drawable/ic_import_contacts_black_24dp"
+        android:title="TKB">
+
+    </item>
+
+    <item
+        android:id="@+id/nav_hoc_chui"
+        android:icon="@drawable/ic_hoc_chui_black_24dp"
+        android:title="Lịch học chung" />
+
+    <item
+        android:id="@+id/nav_today"
+        android:icon="@drawable/ic_today_black_24dp"
+        android:title="Hôm nay" />
+
+
+    <item
+        android:id="@+id/nav_test"
+        android:icon="@drawable/ic_exame_black_24dp"
+        android:title="Đề thi mẫu" />
+
+    <item
+        android:id="@+id/nav_person"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Cá nhân"
+
+        />
+
+</menu>
